@@ -5,7 +5,7 @@
 		<h1>Paginação de Resultados com CodeIgniter e Bootstrap</h1>
 	</div>
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12" id="RegistrosPagina">
 			<?php if($usuarios): ?>
       <div class="table-responsive">
         <table class="table table-striped">
@@ -25,8 +25,8 @@
           </tbody>
         </table>
       </div>
-			<?php echo $pagination; ?>
     <?php endif; ?>
+		<?php echo $pagination; ?>
 		</div>
 	</div>
 </div>

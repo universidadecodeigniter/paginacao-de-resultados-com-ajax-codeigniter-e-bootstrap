@@ -7,5 +7,8 @@
 <!-- Bootstrap -->
 <script src="<?=base_url('assets/js/bootstrap/bootstrap.min.js')?>"></script>
 
+<!-- Script -->
+<script src="<?=base_url('assets/js/scripts.js')?>"></script>
+
 </body>
 </html>
